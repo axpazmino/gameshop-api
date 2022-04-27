@@ -51,7 +51,7 @@ To-do list:
 ## Getting Started
 - Clone Repository using Git Bash
 
-'git clone https://github.com/030722-VA-SRE/Alex-Pazmino.git'
+> 'git clone https://github.com/030722-VA-SRE/Alex-Pazmino.git'
 
 - create system environment variables on your local device containing
  your database credentials
