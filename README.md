@@ -66,6 +66,8 @@ To-do list:
 'docker-compose up -d'
 
 ## Usage 
+Using Postman or a web browser
+
 - As an Admin:
     * I can view all users.
        > GET localhost:8080/users
@@ -73,10 +75,19 @@ To-do list:
        > POST localhost:8080/users
     * I can update a user.
        > PUT localhost:8080/users/{id}
-        
-    As a user, I can view all games.
-        GET localhost:8080/games
-    As a user, I can view games by ID.
-        GET localhost:8080/games/{id}
-    As a user, I can delete a game.
-        DELETE localhost:8080/games/{id}
+    
+- As a User:
+   * I can view all games.
+       > GET localhost:8080/games
+    * I can view games by ID.
+       > GET localhost:8080/games/{id}
+    * I can delete a game.
+       > DELETE localhost:8080/games/{id}
+
+   * I can view all platforms.
+       > GET localhost:8080/platforms
+    * I can view platforms by ID.
+       > GET localhost:8080/platforms/{id}
+    * I can delete a platform.
+       > DELETE localhost:8080/platforms/{id}
+    - NOTE: this will delete all games associated with said platform!
