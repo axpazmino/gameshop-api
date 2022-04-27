@@ -98,4 +98,4 @@ Using Postman or a web browser
       > PUT localhost:8080/platforms/{id}
     * I can delete a platform by ID.
        > DELETE localhost:8080/platforms/{id}
-    - NOTE: this will delete all games associated with said platform!
+       - NOTE: this will delete all games associated with said platform!
