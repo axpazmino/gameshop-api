@@ -53,9 +53,9 @@ To-do list:
 
 'git clone https://github.com/030722-VA-SRE/Alex-Pazmino.git'
 
--create system environment variables on your local device containing
+- create system environment variables on your local device containing
  your database credentials
-- the names of the environment variables are: DB_URL, DB_USER, and DB_PASS
+   - the names of the environment variables are: DB_URL, DB_USER, and DB_PASS
 
 - navigate to the gameshop directory
 
