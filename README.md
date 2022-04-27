@@ -78,16 +78,24 @@ Using Postman or a web browser
     
 - As a User:
    * I can view all games.
-       > GET localhost:8080/games
+      > GET localhost:8080/games
     * I can view games by ID.
-       > GET localhost:8080/games/{id}
-    * I can delete a game.
-       > DELETE localhost:8080/games/{id}
+      > GET localhost:8080/games/{id}
+    * I can delete a game by ID.
+      > DELETE localhost:8080/games/{id}
+    * I can add a game.
+      > POST localhost:8080/games
+    * I can update a game by ID.
+      > PUT localhost:8080/games/{id}
 
    * I can view all platforms.
        > GET localhost:8080/platforms
     * I can view platforms by ID.
        > GET localhost:8080/platforms/{id}
-    * I can delete a platform.
+    * I can add a platform.
+      > POST localhost:8080/platforms
+    * I can update a platform by ID.
+      > PUT localhost:8080/platforms/{id}
+    * I can delete a platform by ID.
        > DELETE localhost:8080/platforms/{id}
     - NOTE: this will delete all games associated with said platform!
