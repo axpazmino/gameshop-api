@@ -51,7 +51,7 @@ To-do list:
 ## Getting Started
 - Clone Repository using Git Bash
 
-> 'git clone https://github.com/030722-VA-SRE/Alex-Pazmino.git'
+> `git clone https://github.com/030722-VA-SRE/Alex-Pazmino.git`
 
 - create system environment variables on your local device containing
  your database credentials
@@ -59,11 +59,11 @@ To-do list:
 
 - navigate to the gameshop directory
 
-'cd gameshop/'
+> `cd gameshop/`
 
 - Run the docker-compose.yml to package and containerize the application
 
-'docker-compose up -d'
+> `docker-compose up -d`
 
 ## Usage 
 Using Postman or a web browser
