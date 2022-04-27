@@ -51,19 +51,32 @@ To-do list:
 ## Getting Started
 - Clone Repository using Git Bash
 
-https://github.com/030722-VA-SRE/Alex-Pazmino.git
+'git clone https://github.com/030722-VA-SRE/Alex-Pazmino.git'
+
+-create system environment variables on your local device containing
+ your database credentials
+- the names of the environment variables are: DB_URL, DB_USER, and DB_PASS
+
+- navigate to the gameshop directory
+
+'cd gameshop/'
+
+- Run the docker-compose.yml to package and containerize the application
+
+'docker-compose up -d'
 
 ## Usage 
-
-    As an Admin, I can view all users.
-        GET /users
-    As an Admin, I can add a new user.
-        POST /users
-    As an Admin, I can update a user.
-        PUT /users/{id}
+- As an Admin:
+    * I can view all users.
+       > GET localhost:8080/users
+    * I can add a new user.
+       > POST localhost:8080/users
+    * I can update a user.
+       > PUT localhost:8080/users/{id}
+        
     As a user, I can view all games.
-        GET /games
+        GET localhost:8080/games
     As a user, I can view games by ID.
-        GET /games/{id}
+        GET localhost:8080/games/{id}
     As a user, I can delete a game.
-        DELETE /games/{id}
+        DELETE localhost:8080/games/{id}
